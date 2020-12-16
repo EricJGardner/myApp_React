@@ -5,6 +5,7 @@ import MyName from './MyName';
 import FunFact from './FunFact';
 import LikeyThings from './LikeyThings';
 import Name from './Name';
+import Example from './Example';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Name customName="Sheila" />
       <FunFact />
       <LikeyThings />
+      <Example />
     </div>
   );
 }
